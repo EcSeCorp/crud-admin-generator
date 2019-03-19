@@ -78,7 +78,7 @@ __TABLECOLUMNS_TYPE_ARRAY__
     foreach($rows_sql as $row_key => $row_sql){
         for($i = 0; $i < count($table_columns); $i++){
 
-__EXTERNALS_FOR_LIST__
+__EXTERNALS_FOR_LIST__;
 
         }
     }    
@@ -159,9 +159,9 @@ __TABLECOLUMNS_INITIALDATA_EMPTY_ARRAY__
 
     $form = $app['form.factory']->createBuilder('form', $initial_data);
 
-__EXTERNALSFIELDS_FOR_FORM__
+__EXTERNALSFIELDS_FOR_FORM__;
 
-__FIELDS_FOR_FORM__
+__FIELDS_FOR_FORM__;
 
     $form = $form->getForm();
 
@@ -219,8 +219,8 @@ __TABLECOLUMNS_INITIALDATA_ARRAY__
 
     $form = $app['form.factory']->createBuilder('form', $initial_data);
 
-__EXTERNALSFIELDS_FOR_FORM__
-__FIELDS_FOR_FORM__
+__EXTERNALSFIELDS_FOR_FORM__;
+__FIELDS_FOR_FORM__;
 
     $form = $form->getForm();
 

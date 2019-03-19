@@ -9287,7 +9287,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "Mostrando _START_ a _END_ de _TOTAL_ entradas",
 		
 		
 			/**
@@ -9301,12 +9301,12 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "oLanguage": {
-			 *          "sInfoEmpty": "No entries to show"
+			 *          "sInfoEmpty": "No hay entradas para mostrar"
 			 *        }
 			 *      } );
 			 *    } );
 			 */
-			"sInfoEmpty": "Showing 0 to 0 of 0 entries",
+			"sInfoEmpty": "Mostrando 0 a 0 de 0 entradas",
 		
 		
 			/**
@@ -9342,7 +9342,7 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "oLanguage": {
-			 *          "sInfoPostFix": "All records shown are derived from real information."
+			 *          "sInfoPostFix": "Todos los registros mostrados se derivan de información real.."
 			 *        }
 			 *      } );
 			 *    } );
@@ -9424,12 +9424,12 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "oLanguage": {
-			 *          "sLoadingRecords": "Please wait - loading..."
+			 *          "sLoadingRecords": "Espere por favor - cargando..."
 			 *        }
 			 *      } );
 			 *    } );
 			 */
-			"sLoadingRecords": "Loading...",
+			"sLoadingRecords": "Cargando...",
 		
 		
 			/**
@@ -9443,12 +9443,12 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "oLanguage": {
-			 *          "sProcessing": "DataTables is currently busy"
+			 *          "sProcessing": "DataTables esta ocupado"
 			 *        }
 			 *      } );
 			 *    } );
 			 */
-			"sProcessing": "Processing...",
+			"sProcessing": "Procesando...",
 		
 		
 			/**
@@ -9466,7 +9466,7 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "oLanguage": {
-			 *          "sSearch": "Filter records:"
+			 *          "sSearch": "Filtrar registros:"
 			 *        }
 			 *      } );
 			 *    } );
@@ -9476,12 +9476,12 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "oLanguage": {
-			 *          "sSearch": "Apply filter _INPUT_ to table"
+			 *          "sSearch": "Aplicando filtro _INPUT_ a la tabla"
 			 *        }
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Search:",
+			"sSearch": "Buscar:",
 		
 		
 			/**

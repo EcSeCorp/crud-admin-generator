@@ -24,14 +24,14 @@
 					}
 				],
 				rowCallback: function( row, data ) {
-					var actions = '<a href="__TABLENAME__/edit/' + data.{{primary_key}} + '" class="btn btn-primary btn-xs">Edit</a> <a href="__TABLENAME__/delete/' + data.{{primary_key}} + '" onclick="return confirm_delete();" class="btn btn-danger btn-xs">Delete</a>';
+					var actions = '<a href="__TABLENAME__/edit/' + data.{{primary_key}} + '" class="btn btn-primary btn-xs">Editar</a> <a href="__TABLENAME__/delete/' + data.{{primary_key}} + '" onclick="return confirm_delete();" class="btn btn-danger btn-xs">Eliminar</a>';
 					$('td:eq({{ table_columns|length }})', row).html( actions );
 				}
 			});
         });
 
         function confirm_delete(){
-            if(!confirm("Are you sure? This action cannot be undone.")) { 
+            if(!confirm("Esta seguro? Estos cambios no se pueden revertir.")) { 
                 return false;
             }
         }
@@ -68,9 +68,9 @@
                             </div><!-- /.box-header -->
 
                             <div class="box-body table-responsive">
-                                <a class="btn btn-primary" href="{{ path('__TABLENAME___create') }}">Create new __TABLENAME__</a>
+                                <a class="btn btn-primary" href="{{ path('__TABLENAME___create') }}">Crear  __TABLENAME__</a>
 
-<a class="btn btn-primary" href="{{ path('__TABLENAME___downloadList') }}">Download list of __TABLENAME__ as PDF</a>
+<a class="btn btn-primary" href="{{ path('__TABLENAME___downloadList') }}">Descargar lista de __TABLENAME__ en PDF</a>
                                 <br /><br />
                                 <table id="__TABLENAME___list" class="table table-bordered table-striped">
                                     <thead>
@@ -78,7 +78,7 @@
                                             {% for table_column in table_columns %}
                                             <th>{{ table_column }}</th>
                                             {% endfor %}
-                                            <th>Actions</th>
+                                            <th>Acciones</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
@@ -86,7 +86,7 @@
                                             {% for table_column in table_columns %}
                                             <th>{{ table_column }}</th>
                                             {% endfor %}
-                                            <th>Actions</th>
+                                            <th>Acciones</th>
                                         </tr>
                                     </tfoot>
                                 </table>
